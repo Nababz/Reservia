@@ -1,1 +1,243 @@
+/* changement de police */
+
+@font-face {
+  font-family: "Raleway";
+  src: url("Font/Raleway-Italic-VariableFont_wght.ttf") format("truetype");
+  src: url("Font/Raleway-VariableFont_wght.ttf") format("truetype");
+}
+
+body {
+  font-family: Raleway;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Header avec menu de navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo-header {
+  width: 100px;
+  height: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin: 15px;
+}
+
+.nav-link:active {
+    color: #DEEBFF;
+    border-top: 2px solid #0065fc;
+    padding-top: 25px;
+}
+
+#register {
+  color: #0065fc;
+}
+
+/* Moteur de recherche par villes */
+
+#search-engine {
+  display: flex;
+}
+
+#search-engine button {
+  background-color: #0065fc;
+  color: white;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 0px 10px 10px 0px;
+}
+
+/* Filtres de recherche */
+
+#filter {
+  display: flex;
+  width: 800px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#filter h2 {
+  font-size: 12px;
+}
+
+#accommodation-available {
+  display: flex;
+  font-size: 12px;
+}
+
+.search-filter {
+  display: flex;
+  border: none;
+  margin: 30px;
+}
+
+.search-filter button {
+  background-color: white;
+  height: 35px;
+  padding: 10px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+
+/* Titres de sections */
+
+.section-title {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+/* Hébergements à Marseille */
+#accommodation-global {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#accommodation-marseille {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    width: 640px;
+    height: 600px;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+#accommodation-global img {
+    width: 95%;
+    height: 80px;
+    border-radius: 15px;
+    padding: 3%;
+}
+
+.accommodation {
+    margin: 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+    width: 150px;
+    height: 220px;
+    font-size: small;
+}
+
+.accommodation h2 {
+    font-size: small;
+}
+
+#show-more {
+    font-size: small;
+    font-weight: bold;
+    position: relative;
+    height: 15px;
+    top: 230px;
+    right: 500px;
+}
+
+/* Hébergements populaires */
+
+#accommodation-popular {
+    margin-left: 50px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+    width: 300px;
+    height: 600px;
+    border: solid;
+}
+
+.accommodation1 {
+    margin: 5px 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    font-size: small;
+}
+
+.accommodation1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.accommodation1 h2 {
+    font-size: small;
+}
+
+
+/* Activités à Marseille */
+
+#activity-marseille {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    font-weight: bold;
+}
+
+#activity-marseille div {
+    border-radius: 15px;
+    border: solid;
+    width: 220px;
+    height: 100%;
+    margin: 15px;
+    box-shadow: 0px 3px 0px #F2F2F2;
+}
+
+#activity-marseille img {
+    border-radius: 15px 15px 0 0;
+    width: 220px;
+}
+
+#img-port {
+    height: 280px;
+}
+
+#img-fort {
+    height: 150px
+}
+
+
+
+
+
+/* Pied de page */
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    font-size: 12px;
+}
+
+footer div {
+    margin: 15px 80px;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.footer-links {
+    margin: 15px 50px 80px;
+}
+
+.footer-links a {
+    margin: 25px 0px;
+}
 
