@@ -88,6 +88,7 @@ nav li {
 
 #search-field::placeholder {
   color: black;
+  
 }
 
 #search-engine button {
@@ -158,11 +159,11 @@ nav li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 11px;
-  width: 11px;
+  height: 14px;
+  width: 14px;
   margin: 0 20px 0 0;
   border-radius: 50%;
-  border-color: #f2f2f2;
+  box-shadow: 0 0 0 2px #f2f2f2;
 }
 
 #accommodation-available {
@@ -246,6 +247,10 @@ nav li {
   color: #0065fc;
 }
 
+#rating0 {
+    color: #f2f2f2;
+}
+
 .price-bold {
   font-weight: bold;
 }
@@ -262,7 +267,7 @@ nav li {
 
 /* Hébergements populaires */
 
-#accommodation-popular {
+#list-accommodation-popular {
   margin-left: 30px;
   background-color: #f2f2f2;
   border-radius: 15px;
@@ -282,18 +287,20 @@ nav li {
 
 .accommodation1 {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: wrap row;
   margin: 5px 0px 20px 20px;
   border-radius: 15px;
   background-color: white;
-  width: 270px;
+  width: 260px;
   height: 100px;
   line-height: 4px;
+  border: solid;
 }
 
-#accommodation-popular img {
+#list-accommodation-popular img {
   height: 80px;
-  width: 100px;
+  width: 50px;
+  border: solid;
 }
 
 /* Activités à Marseille */
@@ -310,7 +317,6 @@ nav li {
 #activity-marseille div {
   border-radius: 15px;
   width: 220px;
-  height: 100%;
   margin: 0px 30px 0 0;
   box-shadow: 0px 3px 0px #f2f2f2;
 }
@@ -323,6 +329,7 @@ nav li {
 
 #activity-marseille p {
   font-size: 11px;
+  padding: 0 0 0 10px;
 }
 
 #img-port {
@@ -333,12 +340,17 @@ nav li {
   height: 140px;
 }
 
+#activity-fort {
+  height: 180px;
+}
+
 #img-frioul {
   height: 80px;
 }
 
 #activity-frioul {
   position: relative;
+  height: 120px;
   right: 250px;
   top: 200px;
 }
@@ -358,8 +370,9 @@ nav li {
 
 #activity-garde {
   position: relative;
+  height: 140px;
   left: 765px;
-  bottom: 400px;
+  bottom: 320px;
 }
 
 #img-longchamp {
@@ -369,7 +382,7 @@ nav li {
 #activity-longchamp {
   position: relative;
   left: 515px;
-  bottom: 240px;
+  bottom: 160px;
 }
 
 /* Pied de page */
