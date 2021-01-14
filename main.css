@@ -114,7 +114,7 @@ header > a {
   background-color: #0065fc;
   color: white;
   height: 35px;
-  width: 90px;
+  width: 100px;
   border: none;
   border-radius: 0px 10px 10px 0px;
   font-size: 11px;
@@ -136,12 +136,12 @@ header > a {
 #filter p {
   font-size: 12px;
   font-weight: bold;
-  margin: 0 15px 0 0;
+  margin: 0 10px 0 0;
 }
 
 .search-filter {
   display: flex;
-  margin: 15px 5px 10px 5px;
+  margin: 15px 0px 10px 0px;
   align-items: center;
 }
 
@@ -183,7 +183,7 @@ header > a {
   font-size: 8px;
   padding: 3px;
   text-align: center;
-  margin: 0 30px 0 30px;
+  margin: 0 10px 0 30px;
   border-radius: 50%;
   height: 8px;
   width: 8px;
@@ -396,7 +396,7 @@ header > a {
 }
 
 .activity-single img {
-  height: 260px;
+  height: 255px;
   border-radius: 15px 15px 0 0;
 }
 
@@ -405,26 +405,48 @@ header > a {
   width: 196px;
 }
 
-.activity-medium {
+#activity-fort {
   margin: 0 0 20px 0;
   box-shadow: 0px 0px 0px 2px #f2f2f2;
   border-radius: 15px;
-  height: 140px;
+  height: 170px;
 }
 
-.activity-medium img {
+#activity-fort img {
+  height: 130px;
+}
+
+#activity-frioul {
+  margin: 0 0 20px 0;
+  border-radius: 15px;
   height: 105px;
+  box-shadow: 0px 0px 0px 2px #f2f2f2;
 }
 
-.activity-small {
+#activity-frioul img {
+  height: 65px;
+}
+
+#activity-garde {
   margin: 0 0 20px 0;
   border-radius: 15px;
   height: 125px;
   box-shadow: 0px 0px 0px 2px #f2f2f2;
 }
 
-.activity-small img {
-  height: 90px;
+#activity-garde img {
+  height: 85px;
+}
+
+#activity-longchamp {
+  margin: 0 0 20px 0;
+  box-shadow: 0px 0px 0px 2px #f2f2f2;
+  border-radius: 15px;
+  height: 150px;
+}
+
+#activity-longchamp img {
+  height: 110px;
 }
 
 /* Pied de page */
@@ -656,6 +678,50 @@ footer div {
     height: 85px;
   }
 
+  #activity-fort {
+    margin: 0 0 20px 0;
+    box-shadow: 0px 0px 0px 2px #f2f2f2;
+    border-radius: 15px;
+    height: 120px;
+  }
+  
+  #activity-fort img {
+    height: 85px;
+  }
+  
+  #activity-frioul {
+    margin: 0 0 20px 0;
+    border-radius: 15px;
+    height: 120px;
+    box-shadow: 0px 0px 0px 2px #f2f2f2;
+  }
+  
+  #activity-frioul img {
+    height: 85px;
+  }
+  
+  #activity-garde {
+    margin: 0 0 20px 0;
+    border-radius: 15px;
+    height: 120px;
+    box-shadow: 0px 0px 0px 2px #f2f2f2;
+  }
+  
+  #activity-garde img {
+    height: 85px;
+  }
+  
+  #activity-longchamp {
+    margin: 0 0 20px 0;
+    box-shadow: 0px 0px 0px 2px #f2f2f2;
+    border-radius: 15px;
+    height: 120px;
+  }
+  
+  #activity-longchamp img {
+    height: 85px;
+  }
+
   /* Footer */
 
   footer {
@@ -774,22 +840,6 @@ footer div {
   }
 
   /* Modification de la taille des activités */
-
-  .activity-small {
-    height: 125px;
-  }
-
-  .activity-small img {
-    height: 90px;
-  }
-
-  .activity-medium {
-    height: 150px;
-  }
-
-  .activity-medium img {
-    height: 115px;
-  }
 
   .activity-single {
     width: 190px;
