@@ -44,7 +44,7 @@
         type="search"
         id="search-field"
         name="Rechercher"
-        placeholder="Marseille,France"
+        placeholder="Marseille, France"
       />
       <button type="button" id="button-browser">Rechercher</button>
       <button type="button" id="button-mobile">
@@ -54,7 +54,7 @@
 
     <!-- Filtres de recherches -->
     <div id="filter">
-     <p>Filtres</p>
+      <p>Filtres</p>
       <!-- Filtre Économique -->
       <div class="search-filter">
         <i class="fas fa-money-bill-wave" id="icon-economic"></i>
@@ -89,7 +89,7 @@
     </div>
 
     <!-- Exemples de logements -->
-    <section id="accommodation-global">
+    <main id="accommodation-global">
       <!-- Logements à Marseille -->
       <div id="accommodation-marseille">
         <h2 class="section-title">Hébergements à Marseille</h2>
@@ -104,7 +104,7 @@
               <p class="accommodation-price">
                 Nuit à partir de <span class="price-bold">25€</span>
               </p>
-              <div class="rating">
+              <div class="rating-marseille">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -124,7 +124,7 @@
               <p class="accommodation-price">
                 Nuit à partir de 52<span class="price-bold">€</span>
               </p>
-              <div class="rating">
+              <div class="rating-marseille">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -144,7 +144,7 @@
               <p class="accommodation-price">
                 Nuit à partir de 76<span class="price-bold">€</span>
               </p>
-              <div class="rating">
+              <div class="rating-marseille">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -164,7 +164,7 @@
               <p class="accommodation-price">
                 Nuit à partir de 45<span class="price-bold">€</span>
               </p>
-              <div class="rating">
+              <div class="rating-marseille">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -184,7 +184,7 @@
               <p class="accommodation-price">
                 Nuit à partir de <span class="price-bold">23€</span>
               </p>
-              <div class="rating">
+              <div class="rating-marseille">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -204,7 +204,7 @@
               <p class="accommodation-price">
                 Nuit à partir de 96<span class="price-bold">€</span>
               </p>
-              <div class="rating">
+              <div class="rating-marseille">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -236,7 +236,7 @@
               <p class="accommodation-price">
                 Nuit à partir de 128<span class="price-bold">€</span>
               </p>
-              <span class="rating">
+              <span class="rating-popular">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -263,7 +263,7 @@
                 Nuit à partir de 71<span class="price-bold">€</span>
               </p>
 
-              <span class="rating">
+              <span class="rating-popular">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -288,7 +288,7 @@
                 Nuit à partir de 68<span class="price-bold">€</span>
               </p>
 
-              <span class="rating">
+              <span class="rating-popular">
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
                 <i class="fas fa-star rating1"></i>
@@ -299,7 +299,7 @@
           </div>
         </a>
       </div>
-    </section>
+    </main>
 
     <!-- Activités à Marseille -->
     <aside id="activity-marseille">
@@ -351,8 +351,8 @@
         </a>
       </div>
 
-      <div class="activity-double">
-        <div class="activity-small activity-mobile">
+      <div class="activity-double activity-double-tablet">
+        <div class="activity-small activity-mobile activity-tablet">
           <a href="">
             <img
               id="img-garde"
@@ -363,7 +363,7 @@
           </a>
         </div>
 
-        <div class="activity-medium activity-mobile">
+        <div class="activity-medium activity-mobile activity-tablet">
           <a href="">
             <img
               id="img-longchamp"
